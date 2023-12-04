@@ -10,7 +10,7 @@ class Day02Test {
     @Test
     fun partOneWorksWithTestInput() {
         assertEquals(
-            0,
+            8,
             day.part1(readInput("two/input/part-one-test-input")),
         )
     }
@@ -18,7 +18,7 @@ class Day02Test {
     @Test
     fun partOneWorksWithRealInput() {
         assertEquals(
-            0,
+            2449,
             day.part1(readInput("two/input/puzzle-input")),
         )
     }
@@ -26,7 +26,7 @@ class Day02Test {
     @Test
     fun partTwoWorksWithTestInput() {
         assertEquals(
-            0,
+            2286,
             day.part2(readInput("two/input/part-two-test-input")),
         )
     }
@@ -34,7 +34,7 @@ class Day02Test {
     @Test
     fun partTwoWorksWithRealInput() {
         assertEquals(
-            0,
+            63981,
             day.part2(readInput("two/input/puzzle-input")),
         )
     }
